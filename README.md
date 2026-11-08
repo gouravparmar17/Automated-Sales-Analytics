@@ -10,6 +10,7 @@ From web data collection to SQL analysis and Power BI reporting
 Project Repository
 </div>📌 Project Overview
 Automated Sales Analytics is an end-to-end data analytics project that demonstrates how product information can be collected from multiple web sources, transformed into structured datasets, stored in MySQL, analyzed using SQL, and presented through a Power BI dashboard.
+
 <img width="2172" height="724" alt="image" src="https://github.com/user-attachments/assets/d1f349fd-4d59-4e19-a024-7a561b9edb31" />
 
 
