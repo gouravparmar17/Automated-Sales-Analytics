@@ -1,12 +1,17 @@
 <div align="center">📊 Automated Sales Analytics
 From web data collection to SQL analysis and Power BI reporting
-
+<img width="233" height="20" alt="image" src="https://github.com/user-attachments/assets/4cec9224-4a27-483b-96b7-95ad41a8fbce" />
+<img width="127" height="20" alt="image" src="https://github.com/user-attachments/assets/cd7b6f74-c267-4d99-a3a0-0ea4194b6133" />
+<img width="138" height="20" alt="image" src="https://github.com/user-attachments/assets/ddbcfe9b-1ec8-49c2-9557-894699f17c84" />
+<img width="131" height="20" alt="image" src="https://github.com/user-attachments/assets/e4fc1d36-3356-4500-8b29-a06d5c9e6fbc" />
 
 
 
 Project Repository
 </div>📌 Project Overview
 Automated Sales Analytics is an end-to-end data analytics project that demonstrates how product information can be collected from multiple web sources, transformed into structured datasets, stored in MySQL, analyzed using SQL, and presented through a Power BI dashboard.
+<img width="2172" height="724" alt="image" src="https://github.com/user-attachments/assets/d1f349fd-4d59-4e19-a024-7a561b9edb31" />
+
 
 The project uses Python for web scraping and data preparation, pandas for data manipulation, MySQL for structured storage, SQL for business analysis, and Power BI for reporting.
 Important data clarification: Product attributes are collected from demo/test websites. The sales transactions are programmatically generated sample data, not actual transactions from a retail company. The project is intended for learning and demonstrating an analytics workflow.
@@ -86,39 +91,19 @@ Power BI	Dashboard creation and visual reporting
 Jupyter Notebook	Developing and documenting the workflow
 
 
-📁 Repository Structure
-Automated-Sales-Analytics/
-│
-├── assets/
-│   └── project-workflow.png
-│
-├── Data_analysis_salesAutomation (1).ipynb
-├── Sales autoomation.sql
-├── salesDashboard.pbix
-└── README.md
-The notebook creates a data/ directory when it runs and writes the two CSV files into it.
-🚀 Run the Project Locally
 Prerequisites
 - Python 3
 - Jupyter Notebook
 - MySQL Server 8.0 or later
 - MySQL Workbench (recommended for running the SQL script)
 - Power BI Desktop (to open the .pbix file; Windows required)
-1. Clone the repository
-git clone https://github.com/gouravparmar17/Automated-Sales-Analytics.git
-cd Automated-Sales-Analytics
-2. Create and activate a Python virtual environment
-python -m venv .venv
-Windows
-.venv\Scripts\activate
-macOS / Linux
-source .venv/bin/activate
-3. Install the Python dependencies
+
+1. Install the Python dependencies
 pip install pandas numpy matplotlib seaborn beautifulsoup4 requests sqlalchemy pymysql mysql-connector-python faker jupyter
-4. Create the MySQL database
+2. Create the MySQL database
 Start the MySQL server and create the database:
 CREATE DATABASE sales_dashboard_db;
-5. Configure the database connection securely
+3. Configure the database connection securely
 Before running the notebook, update its database-connection cell to read credentials from environment variables. Do not put a real database password directly in a notebook or commit it to GitHub.
 
 For example, set these variables in your local environment:
