@@ -11,16 +11,14 @@ Project Repository
 </div>📌 Project Overview
 Automated Sales Analytics is an end-to-end data analytics project that demonstrates how product information can be collected from multiple web sources, transformed into structured datasets, stored in MySQL, analyzed using SQL, and presented through a Power BI dashboard.
 
-<img width="2172" height="724" alt="image" src="https://github.com/user-attachments/assets/d1f349fd-4d59-4e19-a024-7a561b9edb31" />
-
-
 The project uses Python for web scraping and data preparation, pandas for data manipulation, MySQL for structured storage, SQL for business analysis, and Power BI for reporting.
 Important data clarification: Product attributes are collected from demo/test websites. The sales transactions are programmatically generated sample data, not actual transactions from a retail company. The project is intended for learning and demonstrating an analytics workflow.
 
 🔄 Project Workflow
 The following diagram shows how the components in this repository work together:
-<p align="center">
-  <img src="assets/project-workflow.png" alt="Automated Sales Analytics end-to-end workflow: product sources, Python notebook, CSV files, MySQL, SQL analysis, and Power BI dashboard" width="100%">
+
+<img width="2172" height="724" alt="image" src="https://github.com/user-attachments/assets/d1f349fd-4d59-4e19-a024-7a561b9edb31" />
+
 </p>⚙️ How the Project Works
 1. Product data collection — Python web scraping
 The Jupyter notebook collects product information from three sources:
